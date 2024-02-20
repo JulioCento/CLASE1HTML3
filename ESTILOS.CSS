@@ -1,0 +1,83 @@
+/* GR */
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CLASSES */
+.navArt {
+    margin-top: 1vh;
+    height: 8vh;
+    width: 5vw;
+}
+
+.material-symbols-outlined {
+    font-size: 35px !important;
+    color: white;
+}
+
+.textNav {
+    font-size: 1vh;
+    color: white;
+}
+
+.tac {
+    text-align: center;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* BODY */
+
+/* HEADER */
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+}
+
+#logN {
+    image-rendering: auto;
+    height: 32px !important;
+    width: 128px !important;
+    fill: white;
+    margin: 3vh 0px 0px 2vw;
+}
+
+#btnHamb {
+    display: none;
+}
+
+#headerLog {
+    width: 15%;
+    height: 100%;
+}
+
+#headerNav {
+    width: 17%;
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    #headerLog {
+        width: 50%;
+        height: 100%;
+    }
+
+    #btnHamb {
+        background-color: transparent;
+        border: none;
+        display: inline-block;
+    }
+}
